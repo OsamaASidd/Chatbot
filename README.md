@@ -1,6 +1,6 @@
 
 # AI
-It's just a simple web AI using OpenAI GPT-3 and flask (Python)  
+It's just a simple AI using OpenAI GPT-3 and flask (Python)  
 
 ## Setup
 
@@ -14,11 +14,10 @@ It's just a simple web AI using OpenAI GPT-3 and flask (Python)
    $ cd 
    ```
 
-4. Create a new virtual environment
+4. Start the virtual environment
 
    ```bash
-   $ python -m venv venv
-   $ . venv/bin/activate
+   $ . devspace-env/bin/activate
    ```
 
 5. Install the requirements
@@ -42,12 +41,12 @@ It's just a simple web AI using OpenAI GPT-3 and flask (Python)
 
 You can change your AI, you need to change the `conversation` and add or delete what you want to be your real AI
 
-You can update the picture on main.css ` <img src="{{ url_for('static', filename='manga.png') }}" >`
+You can update the picture on main.css ` <img src="{{ url_for('static', filename='download.png') }}" >`
  
 
 ![OpenAI](https://i.blogs.es/0dbd39/openai-gpt-3/1366_2000.jpg)
 
 ## Authors
 
-- [@Antoine Smet](https://github.com/AntoineSmet/)
+- [@OsamaASidd](https://github.com/OsamaASidd)
 

@@ -9,7 +9,7 @@
 </head>
 <body>
 
-  <img src="{{ url_for('static', filename='manga.png') }}" class="icon" />
+  <img src="{{ url_for('static', filename='download.png') }}" class="icon" />
 
   <form action="/" method="post">
     <input type="text" name="human" placeholder="chat with me here"  />
@@ -19,7 +19,18 @@
   <div class="result"> <hr>{{ result }}</div>
   {% endif %}
 
- 
+  <div class="chat-container">
+    <h1>AI Chatbot </h1>
+    <h2>{{ UID }}</h2>
+
+    <div class="chat-history">
+        {% for message in chat_history.split('\n') %}
+            <div class="message">
+                {{ message }}
+            </div>
+        {% endfor %}
+    </div>
+  </div>  
 
 
 

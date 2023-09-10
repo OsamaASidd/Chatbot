@@ -16,3 +16,7 @@ build/
 .DS_STORE
 
 .env
+
+
+# Ignore DevSpace cache and log folder
+.devspace/
