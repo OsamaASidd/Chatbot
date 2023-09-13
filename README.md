@@ -17,7 +17,7 @@ It's just a simple AI using OpenAI GPT-3 and flask (Python)
 4. Start the virtual environment
 
    ```bash
-   $ . devspace-env/bin/activate
+   $ . devspace-env/Scripts/activate
    ```
 
 5. Install the requirements
