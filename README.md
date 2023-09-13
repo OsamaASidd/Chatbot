@@ -4,38 +4,20 @@ It's just a simple AI using OpenAI GPT-3 and flask (Python)
 
 ## Setup
 
-1. If you don’t have Python installed, [install it from here](https://www.python.org/downloads/)
+1. Install Docker Desktop
 
-2. Clone this repository
+2. Build Dockerfile 
 
-3. Navigate into the project directory
-
-   ```bash
-   $ cd 
+  ```bash
+   $ docker build -t my-app .      
    ```
 
-4. Start the virtual environment
+3. Run Dockerfile
 
-   ```bash
-   $ . devspace-env/Scripts/activate
+```bash
+   $ docker run -p 5000:5000 my-app    
    ```
 
-5. Install the requirements
-
-   ```bash
-   $ pip install -r requirements.txt
-   ```
-
-6. Create a `.env` file
-
-
-7. Add your [API key](https://beta.openai.com/account/api-keys) to the newly created `.env` file
-
-8. Run the app
-
-   ```bash
-   $ flask run
-   ```
 
 ## Customize
 
